@@ -1,0 +1,27 @@
+.container img {
+    width: 100%;
+    height: 100%;
+}
+
+.bg-black {
+    color: white;
+    background: black;
+}
+
+/* .o {
+    width: -webkit-fill-available;
+} */
+#main-header .port-item{
+    width: 30%;
+}
+
+#main-header .port-item:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+@media (min-width: 1199px) {
+    .port-item {
+        padding: 3em; !important
+    }
+}
